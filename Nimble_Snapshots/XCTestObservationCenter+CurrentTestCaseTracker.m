@@ -5,10 +5,10 @@
     #import <Nimble_Snapshots/Nimble_Snapshots-Swift.h>
 #endif
 
-@implementation XCTestObservationCenter (CurrentTestCaseTracker)
+@implementation XCTestObservationCenter (SnapCurrentTestCaseTracker)
 
 + (void)load {
-    [[self sharedTestObservationCenter] addTestObserver:[CurrentTestCaseTracker shared]];
+    [[self sharedTestObservationCenter] addTestObserver:[SnapCurrentTestCaseTracker shared]];
 }
 
 @end

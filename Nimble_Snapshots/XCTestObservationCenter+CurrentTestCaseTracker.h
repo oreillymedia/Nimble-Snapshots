@@ -1,5 +1,5 @@
 #import <XCTest/XCTest.h>
 
-@interface XCTestObservationCenter (CurrentTestCaseTracker)
+@interface XCTestObservationCenter (SnapCurrentTestCaseTracker)
 
 @end
